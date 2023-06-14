@@ -1,2 +1,9 @@
-# Restful-BookerAPI
-API automation project for the Restful Booker service
+# Restful Booker API
+API automation project for the [Restful Booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-UpdateBooking) service.
+
+**Tech Stack:**
+- Java
+- REST Assured
+- JUnit
+- Maven
+- Hamcrest
