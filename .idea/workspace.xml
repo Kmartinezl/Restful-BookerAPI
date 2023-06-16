@@ -49,29 +49,107 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/CURAHealthcarePage",
+    "last_opened_file_path": "C:/Users/User/Documents/Restful-BookerAPI",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="RestfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AuthTest.testCreateToken">
+    <configuration name="AuthTest.testCreateToken" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestfulBooker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.smartTalent.test.api.*" />
+          <option name="PATTERN" value="api.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.smartTalent.test.api" />
-      <option name="MAIN_CLASS_NAME" value="com.smartTalent.test.api.RestfulTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.AuthTest" />
+      <option name="METHOD_NAME" value="testCreateToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestfulBooker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.BookingTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.testCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestfulBooker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.BookingTest" />
+      <option name="METHOD_NAME" value="testCreateBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.testGetBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestfulBooker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.BookingTest" />
+      <option name="METHOD_NAME" value="testGetBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.testUpdateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestfulBooker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.BookingTest" />
+      <option name="METHOD_NAME" value="testUpdateBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestfulTest" />
+        <item itemvalue="TestNG.AuthTest.testCreateToken" />
+        <item itemvalue="TestNG.BookingTest.testCreateBooking" />
+        <item itemvalue="TestNG.BookingTest.testUpdateBooking" />
+        <item itemvalue="TestNG.BookingTest.testGetBooking" />
+        <item itemvalue="TestNG.BookingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -85,5 +163,16 @@
       <updated>1686776361754</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

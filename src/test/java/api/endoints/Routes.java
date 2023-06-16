@@ -8,11 +8,11 @@ public class Routes {
 
     //Booking Module
     public static String getBookingIdsUrl = baseUrl+"/booking";
-    public static String getBookingUrl = baseUrl+"/booking/:id";
+    public static String getBookingUrl = baseUrl+"/booking/{id}";
     public static String createBookingUrl = baseUrl+"/booking";
-    public static String updateBookingUrl = baseUrl+"/booking/:id";
-    public static String partialUpdateBookingUrl = baseUrl+"/booking/:id";
-    public static String deleteBookingUrl = baseUrl+"/booking/1";
+    public static String updateBookingUrl = baseUrl+"/booking/{id}";
+    public static String partialUpdateBookingUrl = baseUrl+"/booking/{id}";
+    public static String deleteBookingUrl = baseUrl+"/booking/{id}";
 
     //Ping Module
     public static String healthCheckUrl = baseUrl+"/ping";
