@@ -4,6 +4,8 @@ API automation project for the [Restful Booker](https://restful-booker.herokuapp
 **Tech Stack:**
 - Java
 - REST Assured
-- JUnit
+- TestNG
 - Maven
-- Hamcrest
+- Json
+- Gson
+- Faker
