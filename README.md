@@ -9,3 +9,4 @@ API automation project for the [Restful Booker](https://restful-booker.herokuapp
 - Json
 - Gson
 - Faker
+- Jenkins
