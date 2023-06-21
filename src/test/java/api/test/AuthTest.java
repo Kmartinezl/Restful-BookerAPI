@@ -20,8 +20,8 @@ public class AuthTest {
         faker = new Faker();
         authPayload = new Auth();
 
-        authPayload.setUsername(faker.name().firstName());
-        authPayload.setPassword(String.valueOf(faker.avatar()));
+        authPayload.setUsername("admin");
+        authPayload.setPassword("password123");
     }
 
     @Test

@@ -40,14 +40,14 @@ public class BookingEndpoints {
     }
 
 
-    public static Response updateBooking (int id, Booking payload)
+    public static Response updateBooking (int id, Booking payload, String token)
     {
         Response response =
 
                 given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
-                .cookie("abc123")
+                .cookie(token)
                 .pathParam("id", id)
                 .body(payload)
                 .when()
@@ -56,11 +56,13 @@ public class BookingEndpoints {
         return response;
     }
 
-    public static Response deleteBooking (int id)
+    public static Response deleteBooking (int id, String token)
     {
        Response response =
 
                given()
+               .contentType(ContentType.JSON)
+               .cookie(token)
                .pathParam("id", id)
                .when()
                .delete(Routes.deleteBookingUrl);
@@ -68,28 +70,28 @@ public class BookingEndpoints {
        return response;
     }
 
-    // Additionals
+    // Additionals Booking endpoints
 
-    public static Response getBookingIds(String firstname, String lastname, Date checkin, Date checkout)
+    public static Response getBookingIds(Booking payload)
     {
         Response response = given()
-                .pathParam("firstaname", firstname)
+                .body(payload)
+
                 .when()
                 .get(Routes.getBookingUrl);
 
         return response;
     }
-    public  static Response partialUpdateBooking(int id, Booking payload)
+    public  static Response partialUpdateBooking(int id, Booking payload, String token)
     {
         Response response =
 
                 given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
-                .cookie("abc123")
+                .cookie(token)
                 .pathParam("id", id)
-                .body(payload.getFirstname())
-                .body(payload.getLastname())
+                .body(payload)
                 .when()
                 .patch(Routes.partialUpdateBookingUrl);
 
